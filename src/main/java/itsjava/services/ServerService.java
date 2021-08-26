@@ -1,6 +1,6 @@
 package itsjava.services;
 
-public interface ServerService {
+public interface ServerService extends Observable {
 
     void start();
 }
